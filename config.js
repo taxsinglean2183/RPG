@@ -19,7 +19,7 @@ global.linkGC = ['https://chat.whatsapp.com/HAZ6yFgCafUAeDbNH33IrL', ''] // gant
 global.owner = ['6288279268363'] // Put your number here //owner eval
 global.kontak = ['6288279268363','0'] //Ketika ada yang ngetik #owner
 global.mods = ['6288279268363'] // Want some help?
-global.prems = ['6288279268363'] // Premium user has unlimited limit
+global.prems = ['6288279268363', 6288704308236] // Premium user has unlimited limit
 global.APIs = { // API Prefix
   // name: 'https://website'
   nrtm: 'https://nurutomo.herokuapp.com', 
@@ -71,7 +71,7 @@ global.author = 'King Of Bear' // ganti aja
 //yyy
 bc = 'King Of Bear' //King Of Bear Broadcast
 footer = '\n©King Of Bear'
-namabot = 'YUKI BOT'
+namabot = 'Yuki Bot'
 namalu = 'King Of Bear'
 
 
