@@ -21,6 +21,7 @@ const defaultMenu = {
 ┃✾ Hari : *%week %weton* 
 ┃✾ Tanggal : *%date*
 ┃✾ Tanggal Islam : *%dateIslamic*
+┃✾ Jam : *%time Wib*
 ┗━ꕥ
 ┏━ꕥ
 ┃✾ Uptime: *%uptime (%muptime)*
