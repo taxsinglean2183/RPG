@@ -10,49 +10,47 @@ let handler  = async (m, { conn, usedPrefix }) => {
   //await m.reply('wait Kakak!!')
   let neww = Math.round(performance.now())
   conn.reply(m.chat, `
-═〘 Rules ${namabot} 〙═
-
-⬡ Mohon untuk tidak Spam Bot karena Bot ini sudah memiliki Otomatis Blokir Bagi Pengguna Bot yang Spam
-
-⬡ Mohon maaf jika ad yg memakai menu Nsfw maka akan di block oleh bot, jika di gc tolong admin untuk menghubungi kami!!
-
-⬡ Mohon untuk tidak Menelpon Bot karena Bot ini sudah memiliki Otomatis Blokir Bagi orang yang nelpon Bot
-
-⬡ Kami tidak bertanggung jawab atas penyalahgunaan bot
-
-⬡ Kami tidak bertanggung jawab atas kebocoran data pribadi anda
-
-
-➥ ${namabot} Versi ${package.version}
-➥ *Yt:* https://youtu.be/gk7euEW1vis
-➥ *Ping:* ${neww - old} *ms*
-➥ *Total user:* ${totalreg} *user*
-➥ *Uptime:* ${uptime}
-
-═ 〘 DONASI 〙 ═
-➥ Saweria : https://saweria.co/raraharsita2
-➥ Dana: [0882-7926-8363]
-
-
-➥ Request? https://youtu.be/gk7euEW1vis
-
-Official Grup :
-
-Grup 1 :
-https://chat.whatsapp.com/HAZ6yFgCafUAeDbNH33IrL
-
-Grup 2 :
-https://chat.whatsapp.com/HAZ6yFgCafUAeDbNH33IrL
-
-Grup 3 :
-https://chat.whatsapp.com/HAZ6yFgCafUAeDbNH33IrL
-
-
- ©BaseNew ${namabot}
- Script original by King Of Bear
- 
- 
-═〘 ${namabot} 〙 ═
+┏━━━ꕥ〔 *Rules ${namabot}* 〕ꕥ━⬣
+┃
+┃✾ Mohon untuk tidak Spam Bot karena Bot ini sudah memiliki Otomatis Blokir Bagi Pengguna Bot yang Spam
+┃
+┃✾ Mohon maaf jika ad yg memakai menu Nsfw maka akan di block oleh bot, jika di gc tolong admin untuk menghubungi kami!!
+┃
+┃✾ Mohon untuk tidak Menelpon Bot karena Bot ini sudah memiliki Otomatis Blokir Bagi orang yang nelpon Bot
+┃
+┃✾ Kami tidak bertanggung jawab atas penyalahgunaan bot
+┃
+┃✾ Kami tidak bertanggung jawab atas kebocoran data pribadi anda
+┃
+┃
+┃➥ ${namabot} Versi ${package.version}
+┃➥ *Yt:* https://youtu.be/Sgb5BVOW66Y
+┃➥ *Ping:* ${neww - old} *ms*
+┃➥ *Total user:* ${totalreg} *user*
+┃➥ *Uptime:* ${uptime}
+┗━━━ꕥ
+┏━━━ꕥ〔 *DONASI* 〕━━ꕥ
+┃➥ Saweria : https://saweria.co/raraharsita2
+┃➥ Dana: [0882-7926-8363]
+┃
+┃
+┃➥ Request? https://youtu.be/Sgb5BVOW66Y
+┃
+┃Official Grup :
+┃
+┃Grup 1 :
+┃https://chat.whatsapp.com/HAZ6yFgCafUAeDbNH33IrL
+┃
+┃Grup 2 :
+┃https://chat.whatsapp.com/HAZ6yFgCafUAeDbNH33IrL
+┃
+┃Grup 3 :
+┃https://chat.whatsapp.com/HAZ6yFgCafUAeDbNH33IrL
+┃
+┃
+┃©BaseNew ${namabot}
+┃Script original by King Of Bear
+┗━━━ꕥ〔 *${namabot}* 〕━━ꕥ
 `.trim(), m)
 }
 
