@@ -20,7 +20,7 @@ let handler = async (m, { conn }) => {
 ┃
 ┃©2022 King Of Bear
 ┃Scrip original by Nurutomo
-┗━━━ꕥ〔 *${namabot}* 〕ꕥ━⬣`.trim(), footer, 'Dana', '#viadana', 'Owner', '#owner', m)
+┗━━━ꕥ〔 *${namabot}* 〕ꕥ━⬣`.trim(), footer, 'Dana', '#viadana', 'Owner', '#owner', 'List Menu', '#menu', m)
 }
 
 handler.command = /^sewa(bot)?$/i
