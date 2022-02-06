@@ -1,8 +1,12 @@
 let handler  = async (m, { conn, usedPrefix: _p }) => {
 ye = `@${m.sender.split`@`[0]}`
-let info = `Hai Kak ${ye} Nih SC VIA GITHUB ${ye} JANGAN LUPA FOLLOW
-Atau Bisa Lewat Link Dibawah Ini :
-https://youtu.be/gk7euEW1vis
+let info = `Hai Sayangku ${ye} Lagi Nyari Sc Botkuh Yah:v
+
+Nih Link Sc Gua Dibawah :
+https://youtu.be/Sgb5BVOW66Y
+
+_*Jangan Lupa Di Like Dan Subscribe Tod...!!!*_
+_*Gak Subscribe Gak Work Njingg...!!!*_
 `.trim()
 
 conn.fakeReply(m.chat, info, '0@s.whatsapp.net', `*${global.packname}*`, 'status@broadcast') 
