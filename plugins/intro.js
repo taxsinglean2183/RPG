@@ -1,11 +1,15 @@
 //let { getBuffer, succes } = require('../lib/functions.js');
 let fetch = require('node-fetch')
 let handler = async (m, { conn, text }) => {
-   let cap = `Nih Intro Mu Dah Jadi`
-  if (!text) throw 'Masukkan Nama'
-  m.reply('Sedang Diproses...')
-     let intro = await fetch(`https://kuhong-api.herokuapp.com/api/intromaker?text=${text}&apikey=Coh48liHq136dyR2Tpe`)
-    conn.sendFile(m.chat, intro, 'intro.mp4', cap, m)
+   pushname2 = `*${name.vnmae || name.notify || name.name || ('+' + name.jid.split`@`[0])}*`
+   let cap = `
+   `Hai Sayangku ${pushname2} ${ucapan()}\nIntro dulu yuk biar lebih akrab 😇
+   
+   𝐍𝐚𝐦𝐚:
+   𝐔𝐦𝐮𝐫:
+   𝐀𝐬𝐤𝐨𝐭:
+   𝐀𝐥𝐚𝐬𝐚𝐧 𝐌𝐚𝐬𝐮𝐤 𝐊𝐞 𝐒𝐢𝐧𝐢:`
+   reply(cap)
     }
 
 handler.help = ['intro <teks>']
