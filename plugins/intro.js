@@ -1,6 +1,7 @@
 //let { getBuffer, succes } = require('../lib/functions.js');
 let fetch = require('node-fetch')
 let handler = async (m, { conn, text }) => {
+   let name = m.fromMe ? conn.user : conn.contacts[who]
    pushname2 = `*${name.vnmae || name.notify || name.name || ('+' + name.jid.split`@`[0])}*`
    let cap = `
    `Hai Sayangku ${pushname2} ${ucapan()}\nIntro dulu yuk biar lebih akrab 😇
