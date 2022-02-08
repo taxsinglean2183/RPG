@@ -1,9 +1,9 @@
 let fetch = require('node-fetch')
-let handler = async (m, { text }) => {
+let handler  = async (m, { conn, usedPrefix, command }) => {
 m.reply(wait)
- let url = await fetch('https://api.zeks.xyz/api/memeindo?apikey=caliph_71')
-  let barbar = await url.json()
-conn.sendFile(m.chat, barbar.result, 'memeindo', JSON.stringify(barbar, null, 2), m, false, { contextInfo: { forwardingScore: 999, isForwarded: true }})
+ heum = await fetch(`https://apikey-bear3.herokuapp.com/api/random/memeindo?apikey=${bearkey}`)
+ json = await heum.buffer()
+conn.sendButtonImg(m.chat, json, kasihcaption, footer, 'Next', `${usedPrefix + command}`, m, { contextInfo: { forwardingScore: 999, isForwarded: true }})
 
 }
 handler.command = /^(memeindo)$/i
