@@ -1,5 +1,5 @@
 let fetch = require('node-fetch')
-let handler = async (m, { conn }) => conn.sendButtonLoc(m.chat, await (await fetch(fla + command)).buffer(), `
+let handler = async (m, { conn, command }) => conn.sendButtonLoc(m.chat, await (await fetch(fla + command)).buffer(), `
 Hai Sayangku ${ucapan()}\nIntro dulu yuk biar lebih akrab 😇
    
    𝐍𝐚𝐦𝐚:
