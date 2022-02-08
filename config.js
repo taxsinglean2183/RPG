@@ -11,6 +11,7 @@
 // thank you to MikeBot Dev Team
 // thank you to ALL Bot creator
 // and thanks you to who support my Bot
+let fs = require('fs')
 
 gc1 = ''
 gc2 = ''
@@ -19,7 +20,7 @@ global.linkGC = ['https://chat.whatsapp.com/HAZ6yFgCafUAeDbNH33IrL', ''] // gant
 global.owner = ['6288279268363'] // Put your number here //owner eval
 global.kontak = ['6288279268363','0'] //Ketika ada yang ngetik #owner
 global.mods = ['6288279268363'] // Want some help?
-global.prems = ['6288279268363', '6288704308236'] // Premium user has unlimited limit
+global.prems = JSON.parse(fs.readFileSync('./src/premium.json'))
 global.APIs = { // API Prefix
   // name: 'https://website'
   nrtm: 'https://nurutomo.herokuapp.com', 
@@ -90,7 +91,7 @@ global.multiplier = 36 // The higher, The harder levelup
 //*****************PEMBATAS*********************
 // JANGAN DI GANTI NTAR KLO GABISA JAN TANYA GW
 
-let fs = require('fs')
+
 let chalk = require('chalk')
 let file = require.resolve(__filename)
 fs.watchFile(file, () => {
