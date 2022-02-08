@@ -53,20 +53,13 @@ handler.all = async function (m, { isBlocked }) {
 
     // salam
     let reg = /(ass?alam|اَلسَّلاَمُ عَلَيْكُمْ|السلام عليکم)/i
-    let regg = /(Tes)/i
+
 
     let isSalam = reg.exec(m.text)
-    let isTes = regg.exec(m.text)
 
     if (isSalam && !m.fromMe) {
         m.reply(`وَعَلَيْكُمْ السَّلاَمُ وَرَحْمَةُ اللهِ وَبَرَكَاتُهُ\n_wa\'alaikumussalam wr.wb._`)
         let res = await fetch(`https://github.com/saipulanuar/Api-Github/raw/main/audio/assalamualaikum.mp3`)
-     json = await res.buffer()
-     await conn.sendFile(m.chat, json, 'error.mp3', null, m, true)
-    }
-    if (isTes && !m.fromMe) {
-        m.reply(`Iya sayang sudah aktif kok:')`)
-        let res = await fetch(`https://github.com/saipulanuar/Api-Github/raw/main/audio/sayang.mp3`)
      json = await res.buffer()
      await conn.sendFile(m.chat, json, 'error.mp3', null, m, true)
     }
