@@ -1,4 +1,4 @@
-const Brainly = require('brainly-scraper-v2')
+const { Brainly } = require('brainly-scraper-v2');
 const brain = new Brainly("id")
 let handler = async function (m, { text, usedPrefix, command }) {
   if (!text) throw `uhm.. soalnya mana?\n\ncontoh:\n${usedPrefix + command} apa itu javascript?`
