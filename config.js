@@ -68,6 +68,7 @@ namakontak2 = 'King Of Bear'
 // Sticker WM
 global.packname = 'By King Of Bear' // ganti aja
 global.author = 'King Of Bear' // ganti aja
+global.wm = '©King Of Bear' // ganti aja
 
 //yyy
 bc = 'King Of Bear' //King Of Bear Broadcast
