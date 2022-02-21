@@ -39,10 +39,45 @@ let handler = async (m, { conn, text, command }) => {
     })
     throw stiker.toString()
   }
+  if (/^ttp5?$/i.test(command)) {
+    let stiker = await sticker(null, `https://api.lolhuman.xyz/api/ttp?apikey=${bearkey}&text=${teks}`, global.packname, global.author)
+    if (stiker) return await conn.sendMessage(m.chat, stiker, MessageType.sticker, {
+      quoted: m
+    })
+    throw stiker.toString()
+  }
+  if (/^ttp6?$/i.test(command)) {
+    let stiker = await sticker(null, `https://api.lolhuman.xyz/api/ttp2?apikey=${bearkey}&text=${teks}`, global.packname, global.author)
+    if (stiker) return await conn.sendMessage(m.chat, stiker, MessageType.sticker, {
+      quoted: m
+    })
+    throw stiker.toString()
+  }
+  if (/^ttp7?$/i.test(command)) {
+    let stiker = await sticker(null, `https://api.lolhuman.xyz/api/ttp3?apikey=${bearkey}&text=${teks}`, global.packname, global.author)
+    if (stiker) return await conn.sendMessage(m.chat, stiker, MessageType.sticker, {
+      quoted: m
+    })
+    throw stiker.toString()
+  }
+  if (/^ttp8?$/i.test(command)) {
+    let stiker = await sticker(null, `https://api.lolhuman.xyz/api/ttp6?apikey=${bearkey}&text=${teks}`, global.packname, global.author)
+    if (stiker) return await conn.sendMessage(m.chat, stiker, MessageType.sticker, {
+      quoted: m
+    })
+    throw stiker.toString()
+  }
+  if (/^ttp9?$/i.test(command)) {
+    let stiker = await sticker(null, `https://api.lolhuman.xyz/api/ttp5?apikey=${bearkey}&text=${teks}`, global.packname, global.author)
+    if (stiker) return await conn.sendMessage(m.chat, stiker, MessageType.sticker, {
+      quoted: m
+    })
+    throw stiker.toString()
+  }
 }
-handler.help = new Array(4).fill('ttp').map((v, i) => v + (i + 1) + ' <teks>')
+handler.help = new Array(9).fill('ttp').map((v, i) => v + (i + 1) + ' <teks>')
 handler.tags = ['sticker']
 
-handler.command = /^ttp[1-4]?$/i
+handler.command = /^ttp[1-9]?$/i
 
 module.exports = handler
