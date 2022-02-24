@@ -1,5 +1,6 @@
 let fs = require('fs')
 let fetch = require('node-fetch')
+let levelling = require('../lib/levelling')
 let handler = m => m
 
 handler.all = async function (m, { isBlocked }) {
@@ -10,7 +11,10 @@ handler.all = async function (m, { isBlocked }) {
     let setting = db.data.settings[this.user.jid]
     let { isBanned } = db.data.chats[m.chat]
     let { banned } = db.data.users[m.sender]
-
+    let name = conn.getName(m.sender)
+    let { exp, limit, level, role } = global.db.data.users[m.sender]
+  let { min, xp, max } = levelling.xpRange(level, global.multiplier)
+  let math = max - xp
     // ketika ditag
     try {
         if (m.mentionedJid.includes(this.user.jid) && m.isGroup) {
@@ -28,14 +32,14 @@ handler.all = async function (m, { isBlocked }) {
 
     // ketika ada yang invite/kirim link grup di chat pribadi
     if ((m.mtype === 'groupInviteMessage' || m.text.startsWith('https://chat') || m.text.startsWith('Buka tautan ini')) && !m.isBaileys && !m.isGroup && !m.fromMe && !m.isOwner) {
-        this.send2ButtonLoc(m.chat, await (await fetch(fla + 'sewa bot')).buffer(), `┏━━━ꕥ〔 *${namabot}* 〕ꕥ━⬣
-┃✾ Hai, %name!
+        this.send2ButtonLoc(m.chat, await (await fetch(`https://i.ibb.co/rkTg7B0/donasi.jpg`)).buffer(), `┏━━━ꕥ〔 *${namabot}* 〕ꕥ━⬣
+┃✾ Hai, ${name}!
 ┃
-┃✾ Tersisa *%limit Limit*
-┃✾ Role *%role*
-┃✾ Level *%level (%exp / %maxexp)* 
-┃✾ [%xp4levelup]
-┃✾ %totalexp XP secara Total
+┃✾ Tersisa *${limit} Limit*
+┃✾ Role *${role}*
+┃✾ Level *${level} (${exp} / ${max}exp)* 
+┃✾ Siap untuk *#levelup* : ${math} XP lagi
+┃✾ ${exp} XP secara Total
 ┗━ꕥ
 ┏━━━ꕥ〔 *BELI/SEWA BOT* 〕ꕥ━⬣
 ┃✾ *1 Bulan :* Rp 15000
