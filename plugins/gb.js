@@ -1,9 +1,9 @@
 let handler  = async (m, { conn, usedPrefix: _p }) => {
 ye = `@${m.sender.split`@`[0]}`
-let info = `Hai Sayangku ${ye} Lagi Nyari Sc Botkuh Yah:v
+let info = `Hai Sayangku ${ye} Lagi Nyari Sc Botku Yah:v
 
 Nih Link Sc Gua Dibawah :
-https://youtu.be/Sgb5BVOW66Y
+https://pastelink.net/v20Md
 
 _*Jangan Lupa Di Like Dan Subscribe Tod...!!!*_
 _*Gak Subscribe Gak Work Njingg...!!!*_
