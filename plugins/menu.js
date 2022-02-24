@@ -26,8 +26,8 @@ const defaultMenu = {
 ┏━ꕥ
 ┃✾ Uptime: *%uptime (%muptime)*
 ┃✾ Database: %rtotalreg dari %totalreg
-┃✾ Youtube:
-┃✾ https://youtu.be/Sgb5BVOW66Y
+┃✾ Script:
+┃✾ https://pastelink.net/v20Md
 ┗━━━━━━ꕥ`.trimStart(),
   header: '┏━━ꕥ〔 *%category* 〕ꕥ━⬣',
   body: '┃✾%cmd %islimit %isPremium',
@@ -255,7 +255,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
 ┗━ꕥ
 ┏━ꕥ
 ┃✾ Script by King Of Bear
-┃✾ Yt : https://youtu.be/RSIqyVj-gp0
+┃✾ Script : https://pastelink.net/v20Md
 ┃✾ Run bot : Replit
 ┃✾ Tipe SC King Of Bear
 ┗━━━━━━━━⬣
