@@ -24,7 +24,7 @@ let handler  = async (m, { conn, usedPrefix }) => {
 ┃
 ┃
 ┃➥ ${namabot} Versi ${package.version}
-┃➥ *Yt:* https://youtu.be/Sgb5BVOW66Y
+┃➥ *Script:* https://pastelink.net/v20Md
 ┃➥ *Ping:* ${neww - old} *ms*
 ┃➥ *Total user:* ${totalreg} *user*
 ┃➥ *Uptime:* ${uptime}
@@ -34,7 +34,7 @@ let handler  = async (m, { conn, usedPrefix }) => {
 ┃➥ Dana: [0882-7926-8363]
 ┃
 ┃
-┃➥ Request? https://youtu.be/Sgb5BVOW66Y
+┃➥ Request? https://wa.me/6288279268363
 ┃
 ┃Official Grup :
 ┃
@@ -42,10 +42,7 @@ let handler  = async (m, { conn, usedPrefix }) => {
 ┃https://chat.whatsapp.com/HAZ6yFgCafUAeDbNH33IrL
 ┃
 ┃Grup 2 :
-┃https://chat.whatsapp.com/HAZ6yFgCafUAeDbNH33IrL
-┃
-┃Grup 3 :
-┃https://chat.whatsapp.com/HAZ6yFgCafUAeDbNH33IrL
+┃https://chat.whatsapp.com/BoXaWqe3geWEDdq0v2f0Iy
 ┃
 ┃
 ┃©BaseNew ${namabot}
