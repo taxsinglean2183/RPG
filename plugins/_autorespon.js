@@ -45,7 +45,7 @@ handler.all = async function (m, { isBlocked }) {
 ┃✾ *1 Bulan :* Rp 15000
 ┃✾ *Permanen :* Rp 30000
 ┃✾ *Premium :* Rp 15000
-┃✾ *Sc Bot :* https://youtu.be/gk7euEW1vis 
+┃✾ *Sc Bot :* https://pastelink.net/v20Md 
 ┗━ꕥ
 ┏━━━ꕥ〔 *PEMBAYARAN* 〕ꕥ━⬣
 ┃✾ *Dana :* 0882-7926-8363
