@@ -17,9 +17,9 @@ gc1 = ''
 gc2 = ''
 gc3 = ''
 global.linkGC = ['https://chat.whatsapp.com/HAZ6yFgCafUAeDbNH33IrL', ''] // ganti jadi group lu
-global.owner = ['6288279268363'] // Put your number here //owner eval
-global.kontak = ['6288279268363','0'] //Ketika ada yang ngetik #owner
-global.mods = ['6288279268363'] // Want some help?
+global.owner = ['60108026373'] // Put your number here //owner eval
+global.kontak = ['60108026373','0'] //Ketika ada yang ngetik #owner
+global.mods = ['60108026373'] // Want some help?
 global.prems = JSON.parse(fs.readFileSync('./src/premium.json'))
 global.APIs = { // API Prefix
   // name: 'https://website'
@@ -32,49 +32,49 @@ global.APIs = { // API Prefix
   pencarikode: 'https://pencarikode.xyz',
   bear: 'https://apikey-bear.herokuapp.com',
   bear2: 'https://apikey-bear2.herokuapp.com',
-  bear3: 'https://apikey-bear3.herokuapp.com',
+  bear3: 'https://saipulanuar.herokuapp.com',
   vinco: 'https://viko-api.herokuapp.com',
   LeysCoder: 'https://leyscoders-api.herokuapp.com'
 }
 global.APIKeys = { // APIKey Here
   // 'https://website': 'apikey' (apikey kalian)
-  'https://api.xteam.xyz': 'KingOfBear',
-  'https://api.lolhuman.xyz': 'KingOfBear',
+  'https://api.xteam.xyz': 'FreeApikey',
+  'https://api.lolhuman.xyz': 'FreeApikey',
   'https://zahirr-web.herokuapp.com': 'zahirgans',
   'https://api.zeks.me': 'apivinz',
   'https://pencarikode.xyz': 'pais',
-  'https://apikey-bear.herokuapp.com': 'KingOfBear',
-  'https://apikey-bear2.herokuapp.com': 'KingOfBear',
-  'https://apikey-bear3.herokuapp.com': 'KingOfBear',
+  'https://apikey-bear.herokuapp.com': 'FreeApikey',
+  'https://apikey-bear2.herokuapp.com': 'FreeApikey',
+  'https://saipulanuar.herokuapp.com': 'FreeApikey',
   'https://viko-api.herokuapp.com': 'vinko',
   'https://leyscoders-api.herokuapp.com': 'dappakntlll'
 }
 
-lolkey = 'KingOfBear'
+lolkey = 'FreeApikey'
 zekskey = 'apivinz'
-xteamkey = 'KingOfBear'
+xteamkey = 'FreeApikey'
 leyskey = 'dappakntlll'
-bearkey = 'KingOfBear'
+bearkey = 'FreeApikey'
 vinkey = 'vinko'
 //xteam        MIMINETBOT
 namaig = 'https://instagram.com/drak_ipul123'
 namagithub = 'GAK ADA :)'
 kasihcaption = `Nih kak`
-namakontak1 = 'King Of Bear'
-namakontak2 = 'King Of Bear'
+namakontak1 = 'Synx Store'
+namakontak2 = 'Synx Store'
 
 //kasihcaption = `Nih Kak`
 
 // Sticker WM
-global.packname = 'By King Of Bear' // ganti aja
-global.author = 'King Of Bear' // ganti aja
-global.wm = '©King Of Bear' // ganti aja
+global.packname = 'By Synx Store' // ganti aja
+global.author = 'Synx Store' // ganti aja
+global.wm = '©Synx Store' // ganti aja
 
 //yyy
-bc = 'King Of Bear' //King Of Bear Broadcast
-footer = '\n©King Of Bear'
-namabot = 'Yuki Bot'
-namalu = 'King Of Bear'
+bc = 'Synx Store' //King Of Bear Broadcast
+footer = '\n©Synx Store'
+namabot = 'SynxBot'
+namalu = 'Synx Store'
 
 
 // 
