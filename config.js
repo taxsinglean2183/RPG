@@ -60,21 +60,21 @@ vinkey = 'vinko'
 namaig = 'https://instagram.com/drak_ipul123'
 namagithub = 'GAK ADA :)'
 kasihcaption = `Nih kak`
-namakontak1 = 'Synx Store'
-namakontak2 = 'Synx Store'
+namakontak1 = 'ᴹᴿ᭄ Synx Store ×፝֟͜×'
+namakontak2 = 'ᴹᴿ᭄ Synx Store ×፝֟͜×'
 
 //kasihcaption = `Nih Kak`
 
 // Sticker WM
-global.packname = 'By Synx Store' // ganti aja
-global.author = 'Synx Store' // ganti aja
-global.wm = '©Synx Store' // ganti aja
+global.packname = 'By ᴹᴿ᭄ Synx Store ×፝֟͜×' // ganti aja
+global.author = 'ᴹᴿ᭄ Synx Store ×፝֟͜×' // ganti aja
+global.wm = '©ᴹᴿ᭄ Synx Store ×፝֟͜×' // ganti aja
 
 //yyy
-bc = 'Synx Store' //King Of Bear Broadcast
-footer = '\n©Synx Store'
+bc = 'ᴹᴿ᭄ Synx Store ×፝֟͜×' //King Of Bear Broadcast
+footer = '\n©ᴹᴿ᭄ Synx Store ×፝֟͜×'
 namabot = 'SynxBot'
-namalu = 'Synx Store'
+namalu = 'ᴹᴿ᭄ Synx Store ×፝֟͜×'
 
 
 // 
