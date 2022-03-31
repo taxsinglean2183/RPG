@@ -2,7 +2,7 @@ let fetch = require('node-fetch')
 let handler = async (m, { conn, args, usedPrefix, command }) => {
   if (!args[0]) throw `contoh:\n${usedPrefix + command} raraharsita2`
   m.reply('_Sedang membuat..._\n*Mohon tunggu sekitar 1 menit*')
-  let res = await fetch(`https://apikey-bear3.herokuapp.com/api/stalk/tiktok?apikey=${bearkey}&username=${args[0]}`)
+  let res = await fetch(`https://saipulanuar.herokuapp.com/api/stalk/tiktok?apikey=${bearkey}&username=${args[0]}`)
   if (!res.ok) throw eror
   let json = await res.json()
   if (json.status != true) throw json
