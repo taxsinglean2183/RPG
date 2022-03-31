@@ -6,7 +6,7 @@ let handler = async (m, { args, usedPrefix, command, text }) => {
     if (!server) return conn.reply(m.chat, `uhm.. kamu salah\n\ncontoh:\n${usedPrefix + command} 84830127|2169`, m)
   if (!text) throw `uhm.. kamu salah\n\ncontoh:\n${usedPrefix + command} 84830127|2169`
 
-  let res = await fetch(`https://apikey-bear3.herokuapp.com/api/id/ml?apikey=${bearkey}&id=${id}&server=${server}`)
+  let res = await fetch(`https://saipulanuar.herokuapp.com/api/id/ml?apikey=${bearkey}&id=${id}&server=${server}`)
     if (!res.ok) throw eror
   let json = await res.json()
   m.reply(json.result)
