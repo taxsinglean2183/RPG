@@ -3,7 +3,7 @@ let handler = async(m, { conn, text }) => {
 	if (!text) throw 'masukan link'
 
   await m.reply(global.wait) 
-      let json = await (await fetch(`https://apikey-bear3.herokuapp.com/api/short/tinyurl?url=${text}&apikey=${bearkey}`)).json()
+      let json = await (await fetch(`https://saipulanuar.herokuapp.com/api/short/tinyurl?url=${text}&apikey=${bearkey}`)).json()
       if (!json.status) throw json
     let hasil = `ShortLink Telah Selesai :\n\nNih ${json.result}`.trim()
           
