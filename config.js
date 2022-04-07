@@ -72,7 +72,7 @@ global.wm = '©Synxbotz-MD' // ganti aja
 
 //yyy
 bc = 'Synxstore' //Synxbotz Broadcast
-footer = '\nSynxstore'
+footer = '\n©Synxstore'
 namabot = 'SynxBotz'
 namalu = 'Synxstore'
 
