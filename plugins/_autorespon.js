@@ -42,17 +42,17 @@ handler.all = async function (m, { isBlocked }) {
 ┃✾ ${exp} XP secara Total
 ┗━ꕥ
 ┏━━━ꕥ〔 *BELI/SEWA BOT* 〕ꕥ━⬣
-┃✾ *1 Bulan :* Rp 15000
-┃✾ *Permanen :* Rp 30000
-┃✾ *Premium :* Rp 15000
+┃✾ *1 Bulan :* RM 5
+┃✾ *Permanen :* RM 10
+┃✾ *Premium :* RM 15
 ┃✾ *Sc Bot :* https://pastelink.net/v20Md 
 ┗━ꕥ
-┏━━━ꕥ〔 *PEMBAYARAN* 〕ꕥ━⬣
-┃✾ *Dana :* 0882-7926-8363
-┃✾ *Gopay :* Masih Lewat Qr
-┃✾ *Ovo :* Masih Lewat Qr
-┃✾ *Pulsa :* Masih Belum Bisa 
-┗━ꕥ`.trim(), footer, 'Dana', '#viadana', 'Owner', '#owner', m)
+┏━━━ꕥ〔 *PAYMENT METHOD* 〕ꕥ━⬣
+┃✾ *Tng :* 0179095675
+┃✾ *Maxis :* 0173734022
+┃✾ *Tunetalk :* 0108026373
+┃✾ *Shopeepay :* Scan QR Code
+┗━ꕥ`.trim(), footer, 'Tng', '#viatng', 'Owner', '#owner', m)
 }
 
     // salam
