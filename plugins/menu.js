@@ -254,10 +254,10 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
 ┃✾ *${Object.entries(global.db.data.users).filter(user => user[1].banned).length}* Pengguna Terbanned
 ┗━ꕥ
 ┏━ꕥ
-┃✾ Script by King Of Bear
+┃✾ Script by Synxbotz
 ┃✾ Script : https://pastelink.net/v20Md
 ┃✾ Run bot : Replit
-┃✾ Tipe SC King Of Bear
+┃✾ Tipe SC Synxbotz-MD
 ┗━━━━━━━━⬣
 “${pickRandom(global.quotes)}”`.trim(),
           "buttonText": "Klik Disini",
